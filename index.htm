@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: #ffffff;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            padding: 20px;
+        }
+        nav {
+            width: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        nav a {
+            color: #ff6347;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            margin-top: 60px; /* Space for the fixed navbar */
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .image-container img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+        h1, h2 {
+            color: #ff6347;
+            margin: 20px 0;
+        }
+        p {
+            line-height: 1.6;
+        }
+        a.button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            color: #ffffff;
+            background-color: #ff6347;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        a.button:hover {
+            background-color: #e55337;
+            transform: translateY(-2px);
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px 0;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Trayectoria</a>
+        <a href="#">Producciones</a>
+        <a href="#">Actualidad</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <div class="container">
+        <div class="image-container">
+            <img src="/Users/nissi/Downloads/1H6A6897-min.JPG" alt="HASSI">
+            <img src="/Users/nissi/Downloads/1H6A3240.JPG" alt="Hassi">
+        </div>
+        <h1>Hassi: La trayectoria</h1>
+        <p><strong>El dúo de productores Hassi, conformado por Julian "Nissi" Quiles y Harry "Yoharry" Ramos, ha ganado tanto el Grammy como el Latin Grammy por su participación en el icónico álbum <i>"Un Verano Sin Ti"</i> de la estrella boricua Bad Bunny.</strong></p>
+        <p>Como si fuera poco, tuvieron una colocación en el álbum más reciente del conejo "Nadie Sabe Lo Que Va a Pasar Mañana" con el tema <i>"HIBIKI"</i> en colaboración con Mora. Esta segunda colocación consecutiva con el artista más respetado del género, les permitió demostrar sus capacidades y solidez dentro de la industria, elevando una vez más las apuestas al éxito del dúo.</p>
+        <hr>
+        <h2>Otras producciones</h2>
+        <p>Hassi ha formado parte de producciones como <i>"Sauce Boyz 2"</i> de Eladio Carrión, <i>"Timelezz"</i> de Jhayco, <i>"Microdosis"</i> por Mora, <i>"Códigos"</i> por Maikel de la calle entre muchas otras producciones.</p>
+        <hr>
+        <h2>En la actualidad</h2>
+        <p>Hoy en día, están trabajando en sus carreras como artistas independientes, creando un repertorio de colaboraciones con artistas emergentes y establecidos. Todo esto bajo el sello Paulatina Entertainment, liderado por Paulina Rivera, quien se ha convertido en una figura influyente en la industria musical latina.</p>
+        <h2>Redes sociales</h2>
+        <a class="button" href="https://www.instagram.com/itzhassi/?hl=en">Instagram</a>
+    </div>
+    <footer>
+        <p>&copy; 2024 Hassi. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
